@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Printing & Care Tips | Chrometry</title>
+  <meta name="description" content="Practical tips for loading Chrometry Silk PLA+ filament, removing prints, and caring for your build plate.">
+  <link rel="canonical" href="https://chrometry3d.com/printing-tips.html">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+  <style>
+    .site-header { background: rgba(8, 10, 13, .96); border-bottom: 1px solid var(--line); }
+    .tips-page { padding: 150px 0 110px; }
+    .tips-intro { max-width: 850px; margin-bottom: 70px; }
+    .tips-intro .eyebrow { color: var(--accent); }
+    .tips-intro h1 { font-size: clamp(3.3rem, 7vw, 6.5rem); }
+    .tips-intro p:last-child { max-width: 660px; color: var(--muted); font-size: clamp(1.05rem, 1.7vw, 1.25rem); }
+    .tips-back { display: inline-block; margin-bottom: 35px; color: #c8cfd8; font-size: .9rem; border-bottom: 1px solid var(--line); }
+    .tips-group + .tips-group { margin-top: 56px; }
+    .tips-group > h2 { margin: 0 0 18px; color: var(--accent); font-size: .78rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+    .tip-card { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: clamp(20px, 4vw, 48px); align-items: center; min-height: 174px; padding: clamp(26px, 4vw, 44px); border: 1px solid var(--line); background: var(--surface); }
+    .tip-card + .tip-card { margin-top: 14px; }
+    .tip-card .tips-index { color: var(--accent); font-family: "Bebas Neue", "Arial Narrow", sans-serif; font-size: 3.5rem; line-height: 1; }
+    .tip-card h3 { margin: 0 0 10px; font-size: clamp(1.45rem, 2.2vw, 2rem); line-height: 1.15; letter-spacing: -.025em; }
+    .tip-card p { max-width: 800px; margin: 0; color: var(--muted); }
+    @media (max-width: 760px) {
+      .tips-page { padding: 110px 0 80px; }
+      .tips-intro { margin-bottom: 46px; }
+      .tip-card { grid-template-columns: 1fr; gap: 12px; }
+      .tip-card .tips-index { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header scrolled">
+    <nav class="nav container">
+      <a class="wordmark" href="index.html">CHROMETRY</a>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="manufacturing.html">Manufacturing</a>
+        <a href="products.html">Products</a>
+        <a class="nav-cta" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="tips-page container">
+    <a class="tips-back" href="products.html">← Products</a>
+    <div class="tips-intro">
+      <p class="eyebrow">Chrometry / Silk PLA+</p>
+      <h1>Printing & Care Tips.</h1>
+      <p>Practical notes for loading filament, handling articulated prints, and caring for your build plate.</p>
+    </div>
+
+    <section class="tips-group" aria-labelledby="before-heading">
+      <h2 id="before-heading">Before printing</h2>
+      <article class="tip-card">
+        <span class="tips-index" aria-hidden="true">01</span>
+        <div>
+          <h3>Keep the print surface clean.</h3>
+          <p>Avoid touching the print surface with bare fingers. If you leave fingerprints, clean the plate according to its manufacturer's instructions. A dry paper towel alone does not remove skin oils.</p>
+        </div>
+      </article>
+      <article class="tip-card">
+        <span class="tips-index" aria-hidden="true">02</span>
+        <div>
+          <h3>Check the spool's feeding direction.</h3>
+          <p>Install the spool so the filament unwinds smoothly toward the printer's filament inlet. When loading, check that the spool turns normally and the filament actually enters the feeder. On some setups, the wrong spool orientation can let filament unwind outside the printer instead of feeding in.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="tips-group" aria-labelledby="after-heading">
+      <h2 id="after-heading">After printing</h2>
+      <article class="tip-card">
+        <span class="tips-index" aria-hidden="true">03</span>
+        <div>
+          <h3>Let the plate and print cool before removal.</h3>
+          <p>Wait until the build plate and print have cooled. If your printer has a removable flexible plate, take it off and bend it gently to release the print.</p>
+        </div>
+      </article>
+      <article class="tip-card">
+        <span class="tips-index" aria-hidden="true">04</span>
+        <div>
+          <h3>Remove supports carefully.</h3>
+          <p>If supports are difficult to remove, use small pliers carefully after the print has cooled.</p>
+        </div>
+      </article>
+      <article class="tip-card">
+        <span class="tips-index" aria-hidden="true">05</span>
+        <div>
+          <h3>Move articulated joints only after cooling.</h3>
+          <p>After printing with Chrometry Silk PLA+, wait until the print has fully cooled before flexing its joints. Moving the joints while the print is still warm can cause them to break.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><span>© 2026 Chrometry. All rights reserved.</span><div class="footer-links"><a href="manufacturing.html">Manufacturing</a><span>·</span><a href="products.html">Products</a><span>·</span><a href="contact.html">Contact</a><span>·</span><a href="privacy.html">Privacy</a><span>·</span><a href="terms.html">Terms</a></div></div></footer>
+</body>
+</html>

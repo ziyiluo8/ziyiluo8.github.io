@@ -31,6 +31,10 @@
     .settings th { width: 70%; color: #c8cfd8; font-weight: 400; text-align: left; }
     .settings td { color: #fff; font-weight: 700; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
     .settings td span { display: block; margin-top: 3px; color: var(--muted); font-size: .78rem; font-weight: 400; }
+    .tips-link { padding: 38px 0 0; border-top: 1px solid var(--line); }
+    .tips-link .eyebrow { color: var(--accent); }
+    .tips-link h2 { margin: 0 0 12px; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.1; letter-spacing: -.04em; }
+    .tips-link p:not(.eyebrow) { max-width: 620px; color: var(--muted); }
     @media (max-width: 760px) {
       .product-page { padding: 115px 0 80px; }
       .product-intro { margin-bottom: 55px; }
@@ -103,6 +107,12 @@
         </div>
       </div>
     </article>
+    <section class="tips-link">
+      <p class="eyebrow">Silk PLA+ Guide</p>
+      <h2>Printing &amp; Care Tips</h2>
+      <p>Loading filament, removing prints, and caring for your build plate.</p>
+      <a class="text-link" href="printing-tips.html">Read the guide →</a>
+    </section>
   </main>
 
   <footer class="site-footer"><div class="container footer-row"><span>© 2026 Chrometry. All rights reserved.</span><div class="footer-links"><a href="manufacturing.html">Manufacturing</a><span>·</span><a href="products.html" aria-current="page">Products</a><span>·</span><a href="contact.html">Contact</a><span>·</span><a href="privacy.html">Privacy</a><span>·</span><a href="terms.html">Terms</a></div></div></footer>
