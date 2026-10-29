@@ -29,6 +29,7 @@
     .settings tr { border-bottom: 1px solid var(--line); }
     .settings th, .settings td { padding: 10px 0; line-height: 1.35; }
     .settings th { width: 70%; color: #c8cfd8; font-weight: 400; text-align: left; }
+    .settings th .setting-tip { display: block; margin-top: 3px; color: var(--muted); font-size: .78rem; }
     .settings td { color: #fff; font-weight: 700; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
     .settings td span { display: block; margin-top: 3px; color: var(--muted); font-size: .78rem; font-weight: 400; }
     .product-guide-link { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 24px; padding: 18px 20px; border: 1px solid rgba(255, 255, 255, .3); background: var(--surface-2); color: #fff; font-weight: 700; transition: border-color .2s, background .2s; }
@@ -78,7 +79,8 @@
             <tbody>
               <tr><th scope="row">Nozzle temperature</th><td>210°C<span>Range: 195–220°C</span></td></tr>
               <tr><th scope="row">Bed temperature</th><td>60°C<span>Range: 55–65°C</span></td></tr>
-              <tr><th scope="row">Print speed</th><td>50–60 mm/s<span>Range: 50–100 mm/s</span></td></tr>
+              <tr><th scope="row">Outer wall speed<span class="setting-tip">Slower outer walls can improve the silk finish.</span></th><td>50 mm/s<span>Range: 50–100 mm/s</span></td></tr>
+              <tr><th scope="row">Inner wall speed</th><td>75 mm/s<span>Range: 50–100 mm/s</span></td></tr>
             </tbody>
           </table>
         </div>
@@ -101,7 +103,8 @@
             <tbody>
               <tr><th scope="row">Nozzle temperature</th><td>210°C<span>Range: 195–220°C</span></td></tr>
               <tr><th scope="row">Bed temperature</th><td>60°C<span>Range: 55–65°C</span></td></tr>
-              <tr><th scope="row">Print speed</th><td>50–60 mm/s<span>Range: 50–100 mm/s</span></td></tr>
+              <tr><th scope="row">Outer wall speed<span class="setting-tip">Slower outer walls can improve the silk finish.</span></th><td>50 mm/s<span>Range: 50–100 mm/s</span></td></tr>
+              <tr><th scope="row">Inner wall speed</th><td>75 mm/s<span>Range: 50–100 mm/s</span></td></tr>
             </tbody>
           </table>
         </div>
